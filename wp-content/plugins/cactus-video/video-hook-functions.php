@@ -269,14 +269,14 @@ if(!function_exists('videopro_toolbar_html')){
                         $pv_link = videopro_add_query_vars($pv_link);
                         
 						?>
-						<a href="<?php  echo esc_url($pv_link);?>" class="btn btn-default video-tb font-size-1 cactus-new prev-video"><i class="fa fa-chevron-left"></i><span><?php echo esc_html__( 'PREV VIDEO', 'videopro' )?></span></a>
+						<a href="<?php  echo esc_url($pv_link);?>" class="btn btn-default video-tb font-size-1 cactus-new prev-video"><i class="fa fa-chevron-left"></i><span><?php echo esc_html__( 'VIDEO TRƯỚC', 'videopro' )?></span></a>
 					<?php 
 					}
 					if(!empty($n)){
 						$nv_link = get_permalink($n->ID); 
                         $nv_link = videopro_add_query_vars($nv_link);
 						?>
-                    	<a href="<?php echo esc_url($nv_link); ?>" class="btn btn-default video-tb font-size-1 cactus-old next-video"><span><?php echo esc_html__( 'NEXT VIDEO', 'videopro' )?></span><i class="fa fa-chevron-right"></i></a>
+                    	<a href="<?php echo esc_url($nv_link); ?>" class="btn btn-default video-tb font-size-1 cactus-old next-video"><span><?php echo esc_html__( 'VIDEO TIẾP THEO', 'videopro' )?></span><i class="fa fa-chevron-right"></i></a>
 					<?php 
                     }
 
@@ -306,7 +306,7 @@ if(!function_exists('videopro_toolbar_html')){
                     $ct_query_more = videopro_query_morevideo($id_curr, $sort_of_more, 'video', $number_of_more);
                     
 					if($show_more != 'off' && !empty($ct_query_more)){?>
-                    	<a href="#" class="btn btn-default video-tb font-size-1 open-carousel-post-list"><span><?php esc_html_e('MORE VIDEOS','videopro');?></span><i class="fa fa-caret-down"></i></a>
+                    	<a href="#" class="btn btn-default video-tb font-size-1 open-carousel-post-list"><span><?php esc_html_e('VIDEOS KHÁC','videopro');?></span><i class="fa fa-caret-down"></i></a>
                     <?php }?>
                 </div>
             </div>
@@ -673,7 +673,7 @@ function videopro_auto_next_video_html($auto_next_html){
         }
         
         if($has_auto_next_button){
-            $html .= '<div class="auto-text">'.esc_html__('AUTO NEXT','videopro').'</div>
+            $html .= '<div class="auto-text">'.esc_html__('TỰ ĐỘNG CHƠI TIẾP','videopro').'</div>
                 <div class="autoplay-elms active">
                     <div class="oval-button"></div>
                 </div>';

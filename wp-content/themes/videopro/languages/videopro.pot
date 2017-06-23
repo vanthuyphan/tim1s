@@ -4061,7 +4061,7 @@ msgid "Load More"
 msgstr ""
 
 #: themes/videopro/html/header/header-navigation.php:93
-msgid "Search for videos..."
+msgid "Tìm kiếm video..."
 msgstr ""
 
 #: themes/videopro/html/header/header-navigation.php:95
@@ -4134,7 +4134,7 @@ msgid "Show more"
 msgstr ""
 
 #: themes/videopro/html/single/single-related.php:43
-msgid "You might be interested in"
+msgid "Có thể bạn quan tâm tới"
 msgstr ""
 
 #: themes/videopro/inc/author-metadata.php:6

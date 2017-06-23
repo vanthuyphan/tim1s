@@ -40,7 +40,7 @@ if($videopro_layout == '' || $videopro_layout == 'fullwidth'){
 }
 
 ?>
-<h4 class="single-post-heading"><?php  if(ot_get_option('related_title')!=''){ echo esc_attr(ot_get_option('related_title'));}else{echo esc_html__('You might be interested in','videopro');}?></h4>
+<h4 class="single-post-heading"><?php  if(ot_get_option('related_title')!=''){ echo esc_attr(ot_get_option('related_title'));}else{echo esc_html__('Có thể bạn quan tâm tới','videopro');}?></h4>
 <div class="post-list-in-single">
     <div class="cactus-listing-wrap">
         <div class="cactus-listing-config style-2"> <!--addClass: style-1 + (style-2 -> style-n)-->

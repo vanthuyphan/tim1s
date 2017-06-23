@@ -1697,7 +1697,7 @@ msgid "LIGHT"
 msgstr ""
 
 #: video-hook-functions.php:672
-msgid "AUTO NEXT"
+msgid "TỰ ĐỘNG CHƠI TIẾP"
 msgstr ""
 
 #: video-hook-functions.php:1153
