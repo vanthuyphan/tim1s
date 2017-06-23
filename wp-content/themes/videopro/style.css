@@ -1010,7 +1010,7 @@ License URI: http://www.cactusthemes.com
         
         
 		@media(min-width:1023px){
-			#header-navigation .cactus-header-search-form.search-box-expandable{width:300px; position:relative; z-index:1;transition:all 0.1s 0s; -webkit-transition:all 0.1s 0s;}			
+			#header-navigation .cactus-header-search-form.search-box-expandable{width:500px; margin-left:30%; position:relative; z-index:1;transition:all 0.1s 0s; -webkit-transition:all 0.1s 0s;}
 			#header-navigation .cactus-header-search-form.search-box-expandable form{position:relative; height:40px;}			
 			#header-navigation .cactus-header-search-form.search-box-expandable form input:not([type="submit"]){padding-right:15px; position:absolute; left:0; top:0; transition:all 0.2s; -webkit-transition:all 0.2s;}
 			#header-navigation .cactus-header-search-form.search-box-expandable form input[type="submit"]{}

@@ -19,17 +19,6 @@ function parse_v_submit_button($atts, $content){
         <?php
     } else {
 	?>
-	<div class="cactus-submit-video">
-    	<?php if($bg_hover_bt_submit != '' || $color_hover_bt_submit != '' ){ ?>
-			<!--<style>
-                .cactus-submit-video a {background-color:<?php echo "#".$bg_bt_submit;?> !important; color:<?php echo "#".$color_bt_submit;?> !important;}
-                .cactus-submit-video a:hover{background-color:<?php echo '#'.$bg_hover_bt_submit;?> !important; color:<?php echo '#'.$color_hover_bt_submit;?> !important;}
-            </style>-->
-        <?php }	?>    	
-		<a href="#" data-toggle="modal" data-target="<?php echo $target;?>" class="btn btn-user-submit btn-default bt-style-1 padding-small <?php echo $css;?>" data-type="<?php echo $is_user_created;?>">        	
-        	<span><?php echo esc_html($content); ?></span>
-        </a>
-	</div>
 	<?php
     }
 	
