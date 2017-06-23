@@ -2424,7 +2424,7 @@ msgid "LIGHT"
 msgstr ""
 
 #: plugins/cactus-video/video-hook-functions.php:672
-msgid "AUTO NEXT"
+msgid "Tự động chơi"
 msgstr ""
 
 #: plugins/cactus-video/video-hook-functions.php:1153
