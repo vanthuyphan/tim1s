@@ -90,7 +90,7 @@ if(is_page_template('page-templates/front-page.php')){
 								</ul>
 							</div>
 							 <form action="<?php echo esc_url(home_url('/'));?>" method="get">								
-								<input type="text" placeholder="<?php echo esc_html_e('Search for videos...','videopro');?>" name="s" value="<?php echo esc_attr(get_search_query());?>">
+								<input type="text" placeholder="<?php echo esc_html_e('Tìm videos...','videopro');?>" name="s" value="<?php echo esc_attr(get_search_query());?>">
                                 <i class="fa fa-search" aria-hidden="true"></i>
 								<input type="submit" value="<?php echo esc_html_e('SEARCH','videopro');?>"  id="searchsubmit" class="padding-small">                                
 							</form>
