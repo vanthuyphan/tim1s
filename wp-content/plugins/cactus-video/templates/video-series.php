@@ -93,7 +93,7 @@ do_action('videopro_single_video_series_before_all', $term_id);
 										<?php if($video_series_creator!=''){?>
 										<div class="posted-on metadata-font right">
 											<div class="creator-elm cactus-info font-size-1">
-												<span><?php echo esc_html__('Creator: ','videopro').esc_html($video_series_creator);?></span>
+												<span><?php echo esc_html__('Người đăng: ','videopro').esc_html($video_series_creator);?></span>
 											</div>                                         
 										</div>
                                         <?php }?>
@@ -111,7 +111,7 @@ do_action('videopro_single_video_series_before_all', $term_id);
 									}
 								}
 								if(!empty($video_series_stars)){?>
-								<h2 class="h4 title-cat"><?php echo esc_html__('Stars','videopro');?></h2>
+								<h2 class="h4 title-cat"><?php echo esc_html__('Sao','videopro');?></h2>
 								<div class="post-metadata sp-style style-2 style-3">
                                     <?php foreach($video_series_stars as $item){
 										if(!is_numeric($item)){
