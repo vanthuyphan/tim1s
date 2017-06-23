@@ -133,7 +133,7 @@ msgstr ""
 #: themes/videopro/inc/theme-options.php:689
 #: themes/videopro/inc/theme-options.php:736
 #: themes/videopro/inc/theme-options.php:1016
-msgid "Right"
+msgid "Phải"
 msgstr ""
 
 #: plugins/cactus-ads/cactus-ads.php:22
@@ -158,7 +158,7 @@ msgstr ""
 
 #: plugins/cactus-ads/cactus-ads.php:22
 #: plugins/cactus-ads/includes/advs-meta-boxes.php:113
-msgid "Position"
+msgid "Vị trí"
 msgstr ""
 
 #: plugins/cactus-ads/cactus-ads.php:22
@@ -238,17 +238,17 @@ msgstr ""
 
 #: plugins/cactus-ads/cactus-ads.php:588
 #: themes/videopro/inc/megamenu/core/MegaMenuWalker.class.php:504
-msgid "Description"
+msgid "Miêu tả"
 msgstr ""
 
 #: plugins/cactus-ads/cactus-ads.php:589
-msgid "Expiry Date"
+msgid "Ngày hét hạn"
 msgstr ""
 
 #: plugins/cactus-ads/cactus-ads.php:590
 #: plugins/videopro-shortcodes/shortcodes/playlist.php:97
 #: themes/videopro/inc/theme-options.php:1241
-msgid "Date"
+msgid "Ngày"
 msgstr ""
 
 #: plugins/cactus-ads/cactus-ads.php:591
@@ -275,7 +275,7 @@ msgstr ""
 
 #: plugins/cactus-ads/cactus-ads.php:685
 #: plugins/videopro-shortcodes/shortcodes/promobox.php:11
-msgid "Submit"
+msgid "Gửi"
 msgstr ""
 
 #: plugins/cactus-ads/cactus-ads.php:752
@@ -320,7 +320,7 @@ msgid "HTML"
 msgstr ""
 
 #: plugins/cactus-ads/includes/advs-meta-boxes.php:54
-msgid "Select an Item"
+msgid "Tìm kiếm"
 msgstr ""
 
 #: plugins/cactus-ads/includes/advs-meta-boxes.php:59
@@ -360,31 +360,31 @@ msgid "URL Target"
 msgstr ""
 
 #: plugins/cactus-ads/includes/advs-meta-boxes.php:103
-msgid "Open link in new window"
+msgid "Mở liên kết trên trang mới"
 msgstr ""
 
 #: plugins/cactus-ads/includes/advs-meta-boxes.php:104
-msgid "Open link in current window"
+msgid "Mở đường dẫn trên trang mới"
 msgstr ""
 
 #: plugins/cactus-ads/includes/advs-meta-boxes.php:118
-msgid "Full"
+msgid "Toàn màn hình"
 msgstr ""
 
 #: plugins/cactus-ads/includes/advs-meta-boxes.php:119
-msgid "Top"
+msgid "Đầu"
 msgstr ""
 
 #: plugins/cactus-ads/includes/advs-meta-boxes.php:120
-msgid "Bottom"
+msgid "Cuối"
 msgstr ""
 
 #: plugins/cactus-ads/includes/advs-meta-boxes.php:125
-msgid "Select position"
+msgid "Chọn vị trí"
 msgstr ""
 
 #: plugins/cactus-ads/includes/advs-meta-boxes.php:130
-msgid "Expiry date"
+msgid "Ngày hết hạn"
 msgstr ""
 
 #: plugins/cactus-ads/includes/advs-meta-boxes.php:136
@@ -398,38 +398,38 @@ msgstr ""
 #: plugins/cactus-badges/cactus-badges.php:57
 #: plugins/cactus-badges/cactus-badges.php:58
 #: plugins/cactus-badges/cactus-badges.php:66
-msgid "Badges"
+msgid "Phù hiệu"
 msgstr ""
 
 #: plugins/cactus-badges/cactus-badges.php:59
 #: plugins/cactus-video/video-series.php:243
 #: themes/videopro/inc/theme-options.php:73 themes/videopro/sidebar-left.php:23
 #: themes/videopro/sidebar.php:32
-msgid "Search"
+msgid "Tìm kiếm"
 msgstr ""
 
 #: plugins/cactus-badges/cactus-badges.php:60
-msgid "All Badges"
+msgid "Tất cả phù hiệu"
 msgstr ""
 
 #: plugins/cactus-badges/cactus-badges.php:61
-msgid "Parent Badges"
+msgid "Phù hiệu cha:"
 msgstr ""
 
 #: plugins/cactus-badges/cactus-badges.php:62
-msgid "Parent Badges:"
+msgid "Phù hiệu cha:"
 msgstr ""
 
 #: plugins/cactus-badges/cactus-badges.php:63
-msgid "Edit Badge"
+msgid "Thay đổi phù hiệu"
 msgstr ""
 
 #: plugins/cactus-badges/cactus-badges.php:64
-msgid "Update Badge"
+msgid "Cập nhật phù hiệu"
 msgstr ""
 
 #: plugins/cactus-badges/cactus-badges.php:65
-msgid "Add New Badge"
+msgid "Thêm phù hiệu"
 msgstr ""
 
 #: plugins/cactus-badges/function.php:21
@@ -470,7 +470,7 @@ msgid "Rate type"
 msgstr ""
 
 #: plugins/cactus-rating/admin/plugin-options.php:171
-msgid "All"
+msgid "Tất cả"
 msgstr ""
 
 #: plugins/cactus-rating/admin/plugin-options.php:172
@@ -478,61 +478,61 @@ msgid "Only User"
 msgstr ""
 
 #: plugins/cactus-rating/admin/plugin-options.php:173
-msgid "Turn off"
+msgid "Tắt"
 msgstr ""
 
 #: plugins/cactus-rating/admin/plugin-options.php:189
 #: plugins/cactus-rating/cactus-rating.php:402
 #: plugins/cactus-rating/cactus-rating.php:445
-msgid "Point"
+msgid "Điểm"
 msgstr ""
 
 #: plugins/cactus-rating/admin/plugin-options.php:190
 #: plugins/cactus-rating/cactus-rating.php:450
 msgid "Star"
-msgstr ""
+msgstr "Sao"
 
 #: plugins/cactus-rating/cactus-rating.php:208
 #: plugins/cactus-rating/cactus-rating.php:254
-msgid "Reader Rating"
+msgid "Đánh giá của người dùng"
 msgstr ""
 
 #: plugins/cactus-rating/cactus-rating.php:210
 #: plugins/cactus-rating/cactus-rating.php:254
-msgid "votes"
+msgid "phiếu bầu"
 msgstr ""
 
 #: plugins/cactus-rating/cactus-rating.php:210
 #: plugins/cactus-rating/cactus-rating.php:254
-msgid "vote"
+msgid "phiếu bầu"
 msgstr ""
 
 #: plugins/cactus-rating/cactus-rating.php:228
-msgid "User Rating"
+msgid "Đánh giá của người dùng"
 msgstr ""
 
 #: plugins/cactus-rating/cactus-rating.php:254
-msgid "Your Rating"
+msgid "Đánh giá của người bạn"
 msgstr ""
 
 #: plugins/cactus-rating/cactus-rating.php:254
-msgid "You have already voted"
+msgid "Bạn đã đánh giá"
 msgstr ""
 
 #: plugins/cactus-rating/cactus-rating.php:361
-msgid "Review"
+msgid "Xem lại"
 msgstr ""
 
 #: plugins/cactus-rating/cactus-rating.php:368
-msgid "Review Title"
+msgid "Tiêu đề Xem lại"
 msgstr ""
 
 #: plugins/cactus-rating/cactus-rating.php:372
-msgid "Review title for this post"
+msgid "Tiêu đề xem lại cho bài này"
 msgstr ""
 
 #: plugins/cactus-rating/cactus-rating.php:385
-msgid "Point (Ex: 95)"
+msgid "Điểm (Ex: 95)"
 msgstr ""
 
 #: plugins/cactus-rating/cactus-rating.php:394
@@ -721,7 +721,7 @@ msgstr ""
 #: plugins/cactus-video/video-hook-functions.php:192
 #: plugins/cactus-video/video-hook-functions.php:1157
 #: plugins/cactus-video/video-hook-functions.php:1343
-msgid "Watch Later"
+msgid "Xem sau"
 msgstr ""
 
 #: plugins/cactus-video/cactus-video.php:166
