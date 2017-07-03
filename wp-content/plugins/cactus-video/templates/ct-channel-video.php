@@ -10,17 +10,17 @@
 			$pageURL = get_the_permalink();
 
 			if( (strpos($pageURL, add_query_arg( array('sortby' => 'date'), $pageURL )) !== false)){
-				echo esc_html__('Order By: &nbsp; Published date','videopro');
+				echo esc_html__('Sắp xếp theo: &nbsp; Ngày xuất bản','videopro');
 			}elseif( (strpos($pageURL, add_query_arg( array('sortby' => 'view'), $pageURL )) !== false)){
-				echo esc_html__('Order By: &nbsp; Views','videopro');
+				echo esc_html__('Sắp xếp theo: &nbsp; Views','videopro');
 			}elseif( (strpos($pageURL, add_query_arg( array('sortby' => 'like'), $pageURL )) !== false) ){
-				echo esc_html__('Order By: &nbsp; Like','videopro');
+				echo esc_html__('Sắp xếp theo: &nbsp; Like','videopro');
 			}elseif( (strpos($pageURL, add_query_arg( array('sortby' => 'comments'), $pageURL )) !== false) ){
-				echo esc_html__('Order By: &nbsp; Comments','videopro');
+				echo esc_html__('Sắp xếp theo: &nbsp; Comments','videopro');
 			}elseif( (strpos($pageURL, add_query_arg( array('sortby' => 'title'), $pageURL )) !== false)){
-				echo esc_html__('Order By: &nbsp; Title','videopro');
+				echo esc_html__('Sắp xếp theo: &nbsp; Tiêu Đề','videopro');
 			}else{
-				echo esc_html__('Order By','videopro'); 
+				echo esc_html__('Sắp xếp theo','videopro');
 			}?><i class="fa fa-angle-down"></i>
 			<ul>
 					<li><a href="<?php echo esc_url(add_query_arg( array('sortby' => 'date'), $pageURL )); ?>" title=""><?php echo esc_html__('Published date','videopro'); ?></a></li>
