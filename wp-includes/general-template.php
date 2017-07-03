@@ -986,7 +986,7 @@ function wp_get_document_title() {
 	// If it's a search, use a dynamic search results title.
 	} elseif ( is_search() ) {
 		/* translators: %s: search phrase */
-		$title['title'] = sprintf( __( 'Search Results for &#8220;%s&#8221;' ), get_search_query() );
+		$title['title'] = sprintf( __( 'Kết quả tìm kiếm cho for &#8220;%s&#8221;' ), get_search_query() );
 
 	// If on the front page, use the site title.
 	} elseif ( is_front_page() ) {
@@ -1028,7 +1028,7 @@ function wp_get_document_title() {
 
 	// Add a page number if necessary.
 	if ( ( $paged >= 2 || $page >= 2 ) && ! is_404() ) {
-		$title['page'] = sprintf( __( 'Page %s' ), max( $paged, $page ) );
+		$title['page'] = sprintf( __( 'Trang %s' ), max( $paged, $page ) );
 	}
 
 	// Append the description or site title to give context.
