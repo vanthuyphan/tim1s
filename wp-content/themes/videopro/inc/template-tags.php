@@ -439,7 +439,7 @@ function videopro_global_page_title(){
 		return $videopro_page_title;
 	}
 	if(is_search()){
-		$videopro_page_title = sprintf(esc_html__('Search results for "%s"','videopro'), esc_html(isset($_GET['s'])) ? esc_html($_GET['s']) : '');
+		$videopro_page_title = sprintf(esc_html__('Kết quả tìm kiếm cho "%s"','videopro'), esc_html(isset($_GET['s'])) ? esc_html($_GET['s']) : '');
 	}elseif(is_category()){
 		$videopro_page_title = single_cat_title('',false);
 	}elseif(is_tag()){

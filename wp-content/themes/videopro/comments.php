@@ -69,8 +69,8 @@ if($live_cm == 'on' && $videopro_post_video_layout != '2'){
 
 	<?php 
 	$arrFixCommentPlaceholder = array(
-								'comment_field' => '<textarea id="comment" name="comment" aria-required="true" required="required" placeholder="'.esc_html__('Your comment *','videopro').'"></textarea>',
-								'title_reply'       => esc_html__( 'LEAVE YOUR COMMENT', 'videopro' ),
+								'comment_field' => '<textarea id="comment" name="comment" aria-required="true" required="required" placeholder="'.esc_html__('Nhận xét của bạn *','videopro').'"></textarea>',
+								'title_reply'       => esc_html__( 'Để lại nhận xét của bạn', 'videopro' ),
 								'title_reply_to'    => esc_html__( 'Leave a Reply to %s', 'videopro' ),
 								'format' 			=> 'xhtml'
 								);

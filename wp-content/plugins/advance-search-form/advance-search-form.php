@@ -529,13 +529,13 @@ function videopro_load_search_results_filter(){
                 $str = '';
 				$dur = '';
                 if($length <= 4){
-                    $str = esc_html__('Short (&lt; 4 mins)','videopro');
+                    $str = esc_html__('Ngắn (&lt; 4 phút)','videopro');
 					$dur = '4';
                 } elseif($length <= 20){
-                    $str = esc_html__('Medium (&lt; 20 mins)','videopro');
+                    $str = esc_html__('Trung bình (&lt; 20 phút)','videopro');
 					$dur = '20';
                 } else{
-                    $str = esc_html__('Long (&gt; 20 mins)','videopro');
+                    $str = esc_html__('Dài (&gt; 20 phút)','videopro');
 					$dur = '10000';
                 }
                 $activeFilterItems.= '<a href="javascript:;" data-source="'.$dur.'" data-type="length">' . $str . ' (x)</a>';
@@ -547,7 +547,7 @@ function videopro_load_search_results_filter(){
         <?php
 		if(!empty($all_categories)){?>
             <p class="filter-item categories-items">
-                <span class="filter-heading"><?php echo esc_html__('Categories: ', 'videopro');?></span>            
+                <span class="filter-heading"><?php echo esc_html__('Thể loại: ', 'videopro');?></span>
                 <?php
                 foreach($all_categories as $cat){
                     echo '<a href="javascript:;" data-cat="' . $cat->term_id .'">' . $cat->name . '</a>';
@@ -557,35 +557,35 @@ function videopro_load_search_results_filter(){
         <?php }?>
 		
 		<p class="filter-item orderby-items">
-			<span class="filter-heading"><?php echo esc_html__('Sort By: ', 'videopro');?></span>
-			<a href="javascript:;" data-orderby="date"><?php echo esc_html__('Published Date','videopro');?></a>
-            <a href="javascript:;" data-orderby="view"><?php echo esc_html__('Most Viewed','videopro');?></a>
-            <a href="javascript:;" data-orderby="like"><?php echo esc_html__('Most Liked','videopro');?></a>
-            <a href="javascript:;" data-orderby="comments"><?php echo esc_html__('Most Commented','videopro');?></a>
-            <a href="javascript:;" data-orderby="ratings"><?php echo esc_html__('Most Rated','videopro');?></a>
-            <a href="javascript:;" data-orderby="title"><?php echo esc_html__('Title','videopro');?></a>
+			<span class="filter-heading"><?php echo esc_html__('Tìm theo: ', 'videopro');?></span>
+			<a href="javascript:;" data-orderby="date"><?php echo esc_html__('Ngày xuất bản','videopro');?></a>
+            <a href="javascript:;" data-orderby="view"><?php echo esc_html__('View nhiều nhất','videopro');?></a>
+            <a href="javascript:;" data-orderby="like"><?php echo esc_html__('Like nhiều nhất','videopro');?></a>
+            <a href="javascript:;" data-orderby="comments"><?php echo esc_html__('Commented nhiều nhất','videopro');?></a>
+            <a href="javascript:;" data-orderby="ratings"><?php echo esc_html__('Nhiều sao nhất','videopro');?></a>
+            <a href="javascript:;" data-orderby="title"><?php echo esc_html__('Tiêu đề','videopro');?></a>
 		</p>
         
         <p class="filter-item order-items">
-			<span class="filter-heading"><?php echo esc_html__('Order By: ', 'videopro');?></span>
-			<a href="javascript:;" data-order="DESC"><?php echo esc_html__('Descending','videopro');?></a>
-            <a href="javascript:;" data-order="ASC"><?php echo esc_html__('Ascending','videopro');?></a>
+			<span class="filter-heading"><?php echo esc_html__('Sắp xếp theo: ', 'videopro');?></span>
+			<a href="javascript:;" data-order="DESC"><?php echo esc_html__('Giảm','videopro');?></a>
+            <a href="javascript:;" data-order="ASC"><?php echo esc_html__('Tăng','videopro');?></a>
 		</p>
 		
 		<?php if($video_only){?>
             <p class="filter-item length-items">
                 <span class="filter-heading">
-                    <?php echo esc_html__('Video Length: ', 'videopro');?>
+                    <?php echo esc_html__('Độ dài của video: ', 'videopro');?>
                 </span>
-                <a href="javascript:;" data-length="4"><?php echo esc_html__('Short (&lt; 4 mins)','videopro');?></a>
-                <a href="javascript:;" data-length="20"><?php echo esc_html__('Medium (&lt; 20 mins)','videopro');?></a>
-                <a href="javascript:;" data-length="10000"> <?php echo esc_html__('Long (&gt; 20 mins)','videopro');?></a>
+                <a href="javascript:;" data-length="4"><?php echo esc_html__('Ngắn (&lt; 4 mins)','videopro');?></a>
+                <a href="javascript:;" data-length="20"><?php echo esc_html__('Trung bình (&lt; 20 mins)','videopro');?></a>
+                <a href="javascript:;" data-length="10000"> <?php echo esc_html__('Dài (&gt; 20 mins)','videopro');?></a>
             </p>
 		<?php }?>
         
         <?php if(!empty($all_tags)){?>        
             <p class="filter-item tags-items">
-                <span class="filter-heading"><?php echo esc_html__('Tags: ', 'videopro');?></span>
+                <span class="filter-heading"><?php echo esc_html__('Thẻ: ', 'videopro');?></span>
                 <?php
                 foreach($all_tags as $tag){
                     echo '<a href="javascript:;" data-tag="' . $tag->slug .'">' . $tag->name . '</a>';

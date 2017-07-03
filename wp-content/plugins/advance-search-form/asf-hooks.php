@@ -50,7 +50,7 @@ function asf_hook_videopro_before_search_results($search_query, $filter_args){
     
         <div class="category-tools">
             <div id="asf-open-filters" class="view-sortby metadata-font font-size-1 ct-gradient">
-                <?php echo esc_html__('FILTER', 'videopro')?> <i class="fa fa-angle-down"></i>
+                <?php echo esc_html__('BỘ LỌC', 'videopro')?> <i class="fa fa-angle-down"></i>
             </div>
             
             <?php
