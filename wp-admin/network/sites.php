@@ -296,7 +296,7 @@ require_once( ABSPATH . 'wp-admin/admin-header.php' );
 <?php
 if ( isset( $_REQUEST['s'] ) && strlen( $_REQUEST['s'] ) ) {
 	/* translators: %s: search keywords */
-	printf( '<span class="subtitle">' . __( 'Search results for &#8220;%s&#8221;' ) . '</span>', esc_html( $s ) );
+	printf( '<span class="subtitle">' . __( 'Kết quả tìm kiếm cho &#8220;%s&#8221;' ) . '</span>', esc_html( $s ) );
 }
 ?>
 
@@ -305,7 +305,7 @@ if ( isset( $_REQUEST['s'] ) && strlen( $_REQUEST['s'] ) ) {
 <?php echo $msg; ?>
 
 <form method="get" id="ms-search">
-<?php $wp_list_table->search_box( __( 'Search Sites' ), 'site' ); ?>
+<?php $wp_list_table->search_box( __( 'Tìm kiếm' ), 'site' ); ?>
 <input type="hidden" name="action" value="blogs" />
 </form>
 
